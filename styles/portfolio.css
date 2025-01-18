@@ -1,6 +1,127 @@
-
-
-nav{
-
-    
+nav{ 
+display: flex;
+font-weight: bold;
+font-size: 32px;
+padding-left: 130px;
+padding-right: auto;
+padding-top: 24px;
+padding-bottom: 24px;
+align-content: center;
+opacity: 1.0;
+justify-content: space-between;
 }
+.bd 
+{
+margin-bottom: 51px;
+align-content: left;
+line-height: auto;
+}
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.btn{
+margin-right: 160px;
+margin-left: auto;
+color: #006A50;
+padding: 15px 30px;
+border-radius: 8px;
+font-weight: bold;
+font-size: 20px;
+border: 2px solid #006A50;
+opacity: 1.0;
+cursor: pointer;
+}
+
+.banner{
+background-color: #C6E4D6;
+display: flex;
+margin: 160px 120px 160px;
+padding: 80px 100px;
+border: none;
+border-radius: 24px;
+opacity: 1.0;
+justify-content: space-between;
+}
+
+.bg
+{
+color: #999494;
+}
+
+.old
+{
+margin-right: 60px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+.new
+{
+margin-left: 60px;
+margin-top: 117px;
+margin-bottom: 117px;
+align-content: normal;
+}
+.head
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.text
+{
+    margin-left: 160px;
+    margin-right: 160px; 
+}
+
+.text-doc
+{
+    border-radius: 8px;
+    opacity:1.0;
+    margin-left: 5px;
+    color: white;
+    background-color: #006A50;
+    align-content: center;
+    padding: 17px 34px;
+    border:none;
+    cursor: pointer;
+    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.token{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 160px;
+    gap: 24px;
+}
+.doc{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 32px;
+    align-content: left;
+    line-height: auto;
+    letter-spacing: 0%;
+    vertical-align: 80px;
+}
+.card
+{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: #0e0d0d;
+    opacity: 1.0;
+    align-content: top,left;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 112px;
+    padding-bottom: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
