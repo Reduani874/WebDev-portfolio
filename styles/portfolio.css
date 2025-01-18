@@ -269,3 +269,139 @@ border: #FFC239;
     align-content: left;
     opacity: 1.0;
 }
+
+.batch
+{
+    margin-left: 120px;
+    padding: 24px 48px;
+    align-content: left;
+    opacity: 1.0;
+    border-radius: 8px;
+    border: none;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background: spacing 9px;
+    width: 80%;
+    color: #0E0E0E;
+    background-color: rgba(14, 14, 14, 0.3); 
+    background-position-x: 50px;
+    background-position-y: 10px;
+
+}
+  
+  .cite {
+    display: block;
+    font-weight: SemiBold;
+    font-size: 20px;
+    line-height: 24px;
+    align-content: left;
+    letter-spacing: 0%;
+    margin-top: 20px;
+    vertical-align: 12px;
+  }
+  
+  .small {
+    display: block;
+    font-weight: regular;
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    align-content: left;
+  }
+
+  .opinion
+    {
+        margin-left: 120px;
+        margin-right: 160px;
+        margin-top: 80px;
+        margin-bottom: 24px;
+        align-content: left;
+    }
+    .opinion-card
+    {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .opinion-box
+    {
+      background-color: #FFFFFF;
+      border-radius: 0px;
+      margin-left: 120px;
+      align-items: top left;
+      padding: 0px 0px 0px 0px;
+      opacity: 1.0;
+      flex-direction: column;
+      width: 80%;
+    }
+
+    .opinion-box h2
+    {
+      text-align: left;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: auto;
+      letter-spacing: 0%;
+      margin-bottom: 24px;
+    }
+    .opinion-header
+    {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        align-items: top left;
+        padding: 24px 24px;
+        vertical-align: 24px;
+        background-color: #C6E4D6;
+        opacity: 1.0;
+        border: #0E0E0E;
+        position: inside;
+        flex-direction: column;
+    }
+    .opinion-docs
+    {
+        background-color: #FFFFFF;
+      border-radius: 16px;
+      margin-left: 120px;
+      align-items: top left;
+      padding: 32px 32px 32px 32px;
+      opacity: 1.0;
+      flex-direction: column;
+      width: 80%;
+    }
+    .opinion-text{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .opinion-text p
+    {
+        margin: 0px;
+        font-size: 16px;
+    }
+    .opinion-text select
+    {
+
+        padding: 10px 14px;
+        margin-top: auto;
+        font-size: 14px;
+        border-radius: 4px;
+        opacity: 1.0;
+        background-color: #C6E4D6;
+        border: #0E0E0E;
+        position:inside;
+        align-items: center;
+        font-weight: 1;
+    }
+    .cont
+    {
+        padding: 24px 24px;
+        border-radius: 0px;
+        opacity: 1.0;
+        background-color: #FFFFFF;
+        border: #0E0E0E;
+        position: inside;
+        align-items: top left;
+    }
