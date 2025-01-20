@@ -3,12 +3,13 @@ display: flex;
 font-weight: bold;
 font-size: 32px;
 padding-left: 130px;
-padding-right: auto;
+padding-right: 20px;
 padding-top: 24px;
 padding-bottom: 24px;
 align-content: center;
 opacity: 1.0;
 justify-content: space-between;
+margin-bottom: 20px;
 }
 .Pillars
 {
@@ -16,7 +17,7 @@ padding-top: 24px;
 }
 .bd 
 {
-margin-bottom: 51px;
+
 align-content: left;
 line-height: auto;
 }
