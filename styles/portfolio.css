@@ -132,6 +132,8 @@ align-content: normal;
     line-height: 24px;
     letter-spacing: 0%;
     align-content: left;
+    opacity: 1.0;
+    color: rgba(14, 14, 14, 0.7);
 }
 
 .vision
@@ -162,7 +164,7 @@ align-content: normal;
     letter-spacing: 0%;
     align-content: left;
     opacity: 1.0;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.7);
 }
 .vision-card
 {
@@ -263,8 +265,8 @@ border: #FFC239;
 {
     font-size: 16px;
     font-weight: regular;
-    color: #0E0E0E;
-    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;      
     letter-spacing: 0%;
     align-content: left;
     opacity: 1.0;
@@ -273,21 +275,33 @@ border: #FFC239;
 .batch
 {
     margin-left: 120px;
-    padding: 24px 48px;
+    padding: 48px 24px;
     align-content: left;
     opacity: 1.0;
-    border-radius: 8px;
-    border: none;
+    border-radius: 16px;
+    border: rgba(14, 14, 14, 0.15);
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: top left;
+    background-position-x: 23px;
+    background-position-y: 32px;
     background: spacing 9px;
+    background-color: rgba(255, 255, 255, 1);
     width: 80%;
-    color: #0E0E0E;
-    background-color: rgba(14, 14, 14, 0.3); 
-    background-position-x: 50px;
-    background-position-y: 10px;
+    color: rgba(14, 14, 14, 0.8);
 
+}
+.Lorem
+{
+    color: rgba(14, 14, 14, 0.8);
+}
+.batch p
+{
+    color: rgba(14, 14, 14, 0.8);
+}
+.batch small
+{
+    color: rgba(14, 14, 14, 0.6);
 }
   
   .cite {
@@ -404,4 +418,312 @@ border: #FFC239;
         border: #0E0E0E;
         position: inside;
         align-items: top left;
+    }
+    .news
+    {
+        margin-top: 80px;
+        margin-left: 120px;
+        margin-right: 160px;
+        align-content: top left;
+        vertical-align: 24px;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        opacity: 1.0;
+        margin-bottom: 32px;
+    }
+    .news p
+    {
+        color: rgba(14, 14, 14, 0.69);
+    }
+
+    .news-card1
+    {
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        margin-left: 120px;
+        margin-right: 160px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+        align-items: left;
+        padding: 48px 48px 48px 48px;
+        opacity: 1.0;
+        width: 80%;
+        gap: 32px;
+        display: flex;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .news-card2
+    {
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        margin-left: 120px;
+        margin-right: 160px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+        align-items: left;
+        padding: 48px 48px 48px 48px;
+        opacity: 1.0;
+        width: 80%;
+        gap: 32px;
+        display: flex;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .news-card3
+    {
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        margin-left: 120px;
+        margin-right: 160px;
+        margin-top: 32px;
+        margin-bottom: 80px;
+        align-items: left;
+        padding: 48px 48px 48px 48px;
+        opacity: 1.0;
+        width: 80%;
+        gap: 32px;
+        display: flex;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+.news{
+margin-left: 120px;
+margin-right: 160px;
+}
+.news h1
+{
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 40px;
+    align-content: left;
+    line-height: auto;
+    opacity: 1.0;
+    letter-spacing: 0%;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: outside;
+}
+.news text p
+{
+    margin-left: 120px;
+    margin-right: 160px;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    align-content: left;
+    opacity: 1.0;
+    color: rgba(14, 14, 14, 0.7);
+}
+.gta
+{
+    align-content: top left;
+    color: rgba(14, 14, 14, 0.7);
+}
+.Read
+{
+    align-content: center;
+    padding: 11px 20px;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    opacity: 1.0;
+    border-radius: 8px;
+    background-color: #006A50;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: white;
+    vertical-align: 32px;
+}
+.don
+{
+    text-align: center;
+
+}
+.p 
+{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+}
+.bat
+{
+margin-left: 120px;
+align-items: top center;
+flex-direction: column;
+padding: 0px 0px 0px 0px;
+vertical-align: 32px;
+margin-bottom: 80px;
+margin-top:32px;
+background-color: #FFFFFF;
+border: rgba(14, 14, 14, 0.15);
+}
+.bot
+{
+    align-content: center;
+    padding: 0px 0px 0px 0px;
+    gap: 24px;
+}
+.a 
+{
+    align-content: left;
+    cursor: pointer;
+   padding: 40px 40px 40px 40px;
+   gap: 24px;
+   text-size-adjust: 80%;
+   transition: 0.3s;
+   padding: 12px 24px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+}
+ .a:hover
+ {
+     background-color: #C6E4D6;
+     color: #09A15C;
+     text-decoration-color: #0e0d0d;
+ }
+ .other-amount {
+    width: 300px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-left: 124px;
+    margin-right: 124px;
+  }
+  
+  .donate-now-btn {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    align-content: center;
+    background-color: #17c387;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    position: inside;
+    border: rgba(14, 14, 14, 0.1);
+    vertical-align: 48px;
+    opacity: 1.0;
+    margin-left: 150px;
+    margin-right: 264.5px;
+    margin-top: 40px;
+  }
+  
+  .donate-now-btn:hover {
+    background-color: #14a373;
+  }
+  .fax 
+  {
+    display:grid;
+    flex-direction: column;
+    vertical-align: 24px;
+    padding: 40px 20px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .top
+  {
+    background-color: #e8f5ec;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter-section
+  {
+    background-color: #e8f5ec;
+    padding: 100px 80px 100px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    box-sizing: adjust-box;
+  }
+  
+  .newsletter-container
+  {
+    max-width: 600px;
+    margin: 265px 80px 265px 80px;
+    text-align:center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .newsletter-container h2
+  {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003d33;
+    margin-bottom: 10px;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+    .newsletter-container p
+    {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+    .news-form
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-template-columns: 3fr 1fr;
+    }
+    .newsform input
+    {
+        padding: 40px 18px 40px 18px;
+        flex: 1;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 70%;
+    }
+    .newsform button
+    {
+        padding: 34px 17px 34px 17px;
+        font-size: 16px;
+        background-color: #00543d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: white;
+    }
+    .no-spam
+    {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #777;
+    } 
+
+    footer
+    {
+        background-color:#FFFFFF;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 160px 80px 160px 80px;
+        margin: 160px 120px 160px;
+    }
+    
+    .socials
+    {
+        display: flex;
+        gap: 23px;
+        justify-content: space-around;
+        align-content: center;
+        vertical-align: 32px;
     }
